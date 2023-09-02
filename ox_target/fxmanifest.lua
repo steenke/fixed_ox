@@ -6,20 +6,15 @@ game 'gta5'
 
 -- Resource Information
 name 'ox_target'
-author 'Overextended'
-version '1.13.0'
+author 'Lucas'
+version '1.1.0'
 repository 'https://github.com/overextended/ox_target'
-description ''
+description 'Fixed ox_target without overextended'
 
 -- Manifest
 ui_page 'web/index.html'
 
-shared_scripts {
-	'@ox_lib/init.lua',
-}
-
 client_scripts {
-	'@ox_lib/init.lua',
 	'client/main.lua',
 }
 
@@ -44,5 +39,3 @@ files {
 
 provide 'qtarget'
 provide 'qb-target'
-
-dependency 'ox_lib'
